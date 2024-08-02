@@ -42,5 +42,4 @@ jobs:
 
     - name: Pylint linting
       run: |
-        pylint --rcfile=./back/.pylintrc ./back/core
-        pylint --rcfile=./back/.pylintrc ./back/api
+        pylint --rcfile=./back/.pylintrc ./back
