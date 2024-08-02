@@ -1,0 +1,12 @@
+ asgiref==3.8.1
+ Django>=5.0.3,<5.1
+ django-dotenv
+ django-storages==1.11.1
+ django-cors-headers==4.3.1
+ djangorestframework==3.15.1
+ djangorestframework-simplejwt
+ psycopg2-binary
+ sqlparse==0.4.4
+ boto3
+ requests
+ gunicorn
