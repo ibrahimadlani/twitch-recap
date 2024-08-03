@@ -11,12 +11,11 @@ services:
     ports:
       - "8001:8020"
     volumes:
-       - ./back:/app
+      - ./back:/app
     command: >
-      sh -c 'chmod +x /app/migrate.sh && sh /app/migrate.sh && sh /app/entrypoint.sh'
+      sh -c 'sh /app/migrate.sh && sh /app/entrypoint.sh'
     depends_on:
       - database
-
 
   database:
     image: postgres:13-alpine
